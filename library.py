@@ -3,6 +3,8 @@ import backend
 
 window=Tk()
 
+window.wm_title("BookStore")
+
 def get_selected_row(event):
      try:
         global selected_list
